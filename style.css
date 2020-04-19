@@ -5,7 +5,8 @@ body {
 ul {
   display: flex;
   justify-content: space-between;
-  margin-right: 2rem;
+  margin-left: -1rem;
+  margin-right: 1.6rem;
 }
 
 li {
@@ -15,6 +16,7 @@ li {
 
 a {
   color: white;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -24,11 +26,10 @@ a:hover {
 
 #container {
   background-color: rgb(193, 230, 255);
-  height: 100rem;
   margin: 0 auto;
   margin-top: -.5rem;
   max-width: 90%;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 #header {
@@ -50,4 +51,29 @@ a:hover {
 #headline {
   margin: 0 5%;
   padding-top: 15rem;
+}
+
+#aside {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+}
+
+.aside-news {
+  margin-top: 1.5rem;
+}
+
+#other-news {
+  margin: 1.5rem 5%;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+}
+
+#footer {
+  margin-top: 5rem;
+  text-align: center;
 }
