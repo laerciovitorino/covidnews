@@ -21,13 +21,13 @@ a {
   text-decoration: none;
 }
 
-a > h1 {
+h1, a > h1, a > h2 {
   color: rgb(50, 50, 50);
   font-weight: 900;
 }
 
-a:hover, a > h1:hover {
-  color: red;
+a:hover, a > h1:hover, a > h2:hover {
+  color: grey;
 }
 
 hr {
@@ -46,15 +46,16 @@ h2, h3 {
 }
 
 #container {
-  background-color: rgb(193, 230, 255);
+  background-color: rgb(228, 245, 248);
   margin: 0 auto;
   margin-top: -.5rem;
   max-width: 90%;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 #header {
   background-color: green;
+  background-image: linear-gradient(rgb(181, 240, 250), rgb(228, 245, 248));
   position: fixed;
   text-align: center;
   width: 89.1%;
@@ -62,8 +63,8 @@ h2, h3 {
 }
 
 #navbar {
-  background-color: blue;
-  border: 1px solid grey;
+  background-image: radial-gradient(circle, lightblue , rgb(76, 82, 99));
+  border: 1px solid rgb(161, 161, 161);
   position: fixed;
   margin-top: 7rem;
   width: 89%;
@@ -96,7 +97,16 @@ h2, h3 {
   margin: 0 5%;
 }
 
+#bottom-center {
+  margin: 0 2rem;
+  padding-bottom: 2rem;
+}
+
+#bottom-news-title:hover {
+  color: grey;
+}
+
 #footer {
-  margin-top: 5rem;
+  margin-top: 2rem;
   text-align: center;
 }
