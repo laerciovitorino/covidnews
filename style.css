@@ -1,17 +1,5 @@
-#container {
-  background-color: rgb(193, 230, 255);
-  margin: 0 auto;
-  margin-top: -.5rem;
-  max-width: 90%;
-}
-
-#header {
-  padding-top: 1rem;
-  text-align: center;
-}
-
-#navbar {
-  background-color: green;
+body {
+  background-image: url(https://torange.biz/photofx/219/8/corona-virus-coronavirus-dark-background-template-frame-219307.jpg);
 }
 
 ul {
@@ -31,5 +19,35 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: red;
+}
+
+#container {
+  background-color: rgb(193, 230, 255);
+  height: 100rem;
+  margin: 0 auto;
+  margin-top: -.5rem;
+  max-width: 90%;
+  margin-bottom: 2rem;
+}
+
+#header {
+  background-color: green;
+  position: fixed;
+  text-align: center;
+  width: 89.1%;
+  z-index: 2;
+}
+
+#navbar {
+  background-color: blue;
+  position: fixed;
+  margin-top: 7rem;
+  width: 89.1%;
+  z-index: 1;
+}
+
+#headline {
+  margin: 0 5%;
+  padding-top: 15rem;
 }
