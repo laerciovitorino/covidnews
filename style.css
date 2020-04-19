@@ -180,7 +180,6 @@ button {
 }
 
 #contact-section {
-  /* display: flex; */
   margin: 0 auto;
   padding-top: 15rem;
 }
@@ -192,4 +191,26 @@ button {
 
 #form-section {
   display: flex;
+}
+
+#info-section {
+  margin: 0 5%;
+  padding-top: 15rem;
+}
+
+#reference-list {
+  display: block;
+  margin-top: 1rem;
+}
+
+#reference-list > li {
+  padding-top: 2rem;
+}
+
+#reference-list > li > a {
+  color: rgb(92, 91, 91);
+}
+
+#reference-list > li > a:hover {
+  color: black;
 }
